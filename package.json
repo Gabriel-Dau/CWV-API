@@ -1,0 +1,23 @@
+{
+  "name": "cwv-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cwv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-Dau/CWV-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-Dau/CWV-API/issues"
+  },
+  "homepage": "https://github.com/Gabriel-Dau/CWV-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
