@@ -1,0 +1,135 @@
+{
+  "0": {
+    "name": "INP",
+    "value": 8,
+    "rating": "good",
+    "delta": 8,
+    "entries": [
+      {
+        "name": "pointerdown",
+        "entryType": "first-input",
+        "startTime": 9711.899999856949,
+        "duration": 8,
+        "processingStart": 9718.200000047684,
+        "processingEnd": 9718.200000047684,
+        "cancelable": true
+      }
+    ],
+    "id": "v4-1719346519039-8235031025001",
+    "navigationType": "reload"
+  },
+  "1": {
+    "name": "INP",
+    "value": 160,
+    "rating": "good",
+    "delta": 152,
+    "entries": [
+      {
+        "name": "click",
+        "entryType": "event",
+        "startTime": 9804.5,
+        "duration": 160,
+        "processingStart": 9832.5,
+        "processingEnd": 9896.200000047684,
+        "cancelable": true
+      }
+    ],
+    "id": "v4-1719346519039-8235031025001",
+    "navigationType": "reload"
+  },
+  "2": {
+    "name": "INP",
+    "value": 184,
+    "rating": "good",
+    "delta": 24,
+    "entries": [
+      {
+        "name": "click",
+        "entryType": "event",
+        "startTime": 12580.899999856949,
+        "duration": 184,
+        "processingStart": 12592,
+        "processingEnd": 12731.399999856949,
+        "cancelable": true
+      }
+    ],
+    "id": "v4-1719346519039-8235031025001",
+    "navigationType": "reload"
+  },
+  "3": {
+    "name": "INP",
+    "value": 192,
+    "rating": "good",
+    "delta": 8,
+    "entries": [
+      {
+        "name": "click",
+        "entryType": "event",
+        "startTime": 14308.899999856949,
+        "duration": 192,
+        "processingStart": 14414.399999856949,
+        "processingEnd": 14426.299999952316,
+        "cancelable": true
+      }
+    ],
+    "id": "v4-1719346519039-8235031025001",
+    "navigationType": "reload"
+  },
+  "4": {
+    "name": "INP",
+    "value": 16,
+    "rating": "good",
+    "delta": 16,
+    "entries": [
+      {
+        "name": "pointerdown",
+        "entryType": "first-input",
+        "startTime": 5373.599999904633,
+        "duration": 16,
+        "processingStart": 5386.399999856949,
+        "processingEnd": 5386.399999856949,
+        "cancelable": true
+      }
+    ],
+    "id": "v4-1719349231066-8727474307291",
+    "navigationType": "reload"
+  },
+  "5": {
+    "name": "INP",
+    "value": 120,
+    "rating": "good",
+    "delta": 104,
+    "entries": [
+      {
+        "name": "click",
+        "entryType": "event",
+        "startTime": 5445.099999904633,
+        "duration": 120,
+        "processingStart": 5467.399999856949,
+        "processingEnd": 5535.399999856949,
+        "cancelable": true
+      }
+    ],
+    "id": "v4-1719349231066-8727474307291",
+    "navigationType": "reload"
+  },
+  "6": {
+    "name": "INP",
+    "value": 152,
+    "rating": "good",
+    "delta": 32,
+    "entries": [
+      {
+        "name": "click",
+        "entryType": "event",
+        "startTime": 11662.200000047684,
+        "duration": 152,
+        "processingStart": 11667.599999904633,
+        "processingEnd": 11782.700000047684,
+        "cancelable": true
+      }
+    ],
+    "id": "v4-1719349231066-8727474307291",
+    "navigationType": "reload"
+  }
+}

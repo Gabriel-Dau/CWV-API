@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const path = 'CWV.txt';
+const path = 'cwv.txt';
 const PORT = 3000;
 
 const writeToFile = data =>
@@ -34,23 +34,6 @@ const addCwvDataToFile = dataToAdd => {
   });
 };
 
-const getCwvData = async () => {
-    const data = await fs.readFile(path, (err, data) => {
-        if (err) {
-         console.error(err);
-         throw err;
-       } else {
-         try {
-           return JSON.parse(data);
-         } catch (error) {
-           console.error(error);
-           throw error;
-         }
-       }
-     });
-    return data;
-}
-
 const app = express();
 
 app.use(cors());
@@ -63,7 +46,19 @@ app.post('/', bodyParser.json(), (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send(getCwvData());
+  fs.readFile(path, (err, data) => {
+    if (err) {
+     console.error(err);
+     throw err;
+   } else {
+     try {
+       res.send(data);
+     } catch (error) {
+       console.error(error);
+       throw error;
+     }
+   }
+ });
 })
 
 app.listen(PORT, err => {
