@@ -25,7 +25,7 @@ const addCwvDataToFile = dataToAdd => {
       try {
         const parsedData = JSON.parse(data);
         const keys = Object.keys(parsedData);
-        writeToFile({ ...parsedData, [keys.length]: dataToAdd });
+        writeToFile({ ...parsedData, [keys.length]: { ...dataToAdd, id: keys.length } });
       } catch (error) {
         console.error(error);
         throw error;
