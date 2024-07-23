@@ -4,6 +4,7 @@
   "description": "",
   "main": "cwv.js",
   "scripts": {
+    "start": "node cwv.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
